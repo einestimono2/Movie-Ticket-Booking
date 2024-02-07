@@ -1,0 +1,99 @@
+.detail-movie {
+  background: linear-gradient(to bottom, var(--main-color), var(--main-color-light));
+}
+.img-detail {
+  width: 100%;
+  height: 100%;
+  border-radius: 8px;
+  object-fit: fill;
+  border: 2px solid var(--background-color);
+}
+.detail-title {
+  font-size: 1.5rem;
+  color: var(--background-color);
+  font-weight: bold;
+}
+.detail-sub-title {
+  font-size: 1rem;
+  color: var(--second-color-light);
+}
+.btn-like {
+  // margin-right: 10px;
+  color: var(--main-color);
+  background-color: var(--background-color);
+}
+.btn-like:hover {
+  background-color: var(--background-color-dark);
+}
+.btn-vote {
+  // margin-right: 10px;
+  color: var(--main-color);
+  background-color: var(--background-color);
+}
+.btn-vote:hover {
+  background-color: var(--background-color-dark);
+}
+.btn-trailer {
+  margin-right: 10px;
+  color: var(--background-color);
+  background-color: var(--main-color);
+  border: 1px solid var(--background-color);
+}
+.btn-trailer:hover {
+  color: var(--background-color-dark);
+  background-color: var(--main-color-light);
+  border: 1px solid var(--background-color-dark);
+}
+.btn-ticket {
+  color: var(--background-color);
+  background-color: rgb(221, 65, 65);
+  // border: 1px solid var(--background-color);
+}
+.btn-ticket:hover {
+  color: var(--background-color-dark);
+  background-color: rgb(185, 44, 44);
+  // border: 1px solid var(--background-color-dark);
+}
+.detail-description {
+  color: var(--background-color);
+}
+.info-detail-title {
+  font-size: 1rem;
+  color: var(--background-color);
+  margin-bottom: 3px;
+}
+.info-detail {
+  color: var(--background-color-dark);
+  margin-bottom: 0;
+}
+.main-detail-title {
+  color: var(--background-color);
+  font-weight: bold;
+  font-size: 1rem;
+}
+.sub-detail-title {
+  color: yellow;
+  font-weight: 500;
+  font-size: 1rem;
+}
+.movie-person {
+  width: 7rem;
+  height: 7rem;
+}
+.movie-person-name {
+  color: #e63757;
+  cursor: pointer;
+}
+.movie-person-name:hover {
+  text-decoration: underline;
+}
+
+.showtime-card:nth-child(2n) {
+  background-color: var(--background-color);
+  border-top: 1px solid rgba(128, 128, 128, 0.068);
+  border-bottom: 1px solid rgba(128, 128, 128, 0.068);
+}
+
+.ant-collapse-header {
+  align-items: center !important;
+}

@@ -1,0 +1,16 @@
+.custom-timeline {
+  .ant-timeline-item-label {
+    width: calc(50% - 280px) !important;
+  }
+  .ant-timeline-item-tail {
+    inset-inline-start: 17.5% !important;
+  }
+  .ant-timeline-item-head {
+    margin-inline-start: -262px !important;
+  }
+  .ant-timeline-item-content {
+    inset-inline-start: calc(50% - 250px) !important;
+    width: calc(50% + 223px) !important;
+    inset-block-start: 2px !important;
+  }
+}

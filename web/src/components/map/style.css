@@ -1,0 +1,7 @@
+.leaflet-control-attribution {
+  display: none !important;
+}
+
+.leaflet-popup {
+  width: 17.5vw;
+}

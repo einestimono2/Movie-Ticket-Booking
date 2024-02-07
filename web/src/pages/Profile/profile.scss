@@ -1,0 +1,68 @@
+.gradient-custom {
+  /* fallback for old browsers */
+  background: #f6d365;
+
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: -webkit-linear-gradient(to right bottom, var(--main-color), var(--second-color));
+
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  background: linear-gradient(to right bottom, var(--main-color), var(--second-color));
+}
+
+.avatar {
+  border: 5px solid var(--background-color);
+  min-width: 200px !important;
+  min-height: 200px !important;
+}
+.title-name {
+  color: var(--background-color);
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+.role {
+  color: var(--background-color);
+}
+.body-profile {
+  background-color: var(--background-color);
+}
+h6 {
+  color: var(--second-color);
+}
+h3 {
+  color: var(--second-color);
+}
+.active {
+  color: green !important;
+  font-weight: 600;
+}
+.ant-list-item-meta-title > a {
+  color: var(--main-color) !important;
+  font-weight: 600;
+}
+.ant-avatar {
+  min-width: 60px;
+  min-height: 60px;
+}
+
+.profile-container {
+  .ant-form-item-label {
+    padding: 0;
+  }
+
+  .custom-upload > span {
+    width: fit-content;
+  }
+
+  .info:hover {
+    background-color: bisque;
+    box-shadow: #f6d365;
+  }
+
+  .ant-segmented-item {
+    height: 100%;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

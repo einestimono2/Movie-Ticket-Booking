@@ -1,0 +1,23 @@
+.fullscreen-loading-container {
+  width: 100%;
+
+  div {
+    width: 100%;
+  }
+}
+
+.loading-container {
+  width: 100%;
+
+  div {
+    height: 100%;
+
+    div {
+      height: 100%;
+
+      div {
+        max-height: fit-content !important;
+      }
+    }
+  }
+}
